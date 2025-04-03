@@ -1,4 +1,4 @@
-import GetStarted from "@/components/getStartedComponent/GetStarted";
+import GetStarted from "../components/getStartedComponent/GetStarted";
 
 
 
