@@ -6,7 +6,7 @@ export default function HeroComponent() {
   return (
     <div className="main-bg overflow-hidden">
     <div className="relative flex items-center justify-center min-h-screen p-10 bg-[#891ca4f1] overflow-hidden ">
-    <img src="/logoWhite.png" alt="" width={500} className="absolute top-0 left-0" />
+    <img src="/logoWhite.png" alt="" width={500} className="absolute -top-5 -left-15" />
  <div className="flex flex-col  w-2/4 items-start">
             
         <h1 className="2xl:text-[70px] xl:text-[50px] font-bold  text-white">
