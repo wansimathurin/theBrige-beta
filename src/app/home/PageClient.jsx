@@ -15,7 +15,7 @@ export default function PageClient({ user }) {
     
     const getCampaigns = async () => {
         try {
-          const res = await axios.get('http://localhost:3000/api/campaigns');
+          const res = await axios.get('https://the-brige-beta.vercel.app/api/campaigns');
           console.log("Fetched Campaigns:", res.data);
           setCampaignsList(res.data);
         } catch (error) {
