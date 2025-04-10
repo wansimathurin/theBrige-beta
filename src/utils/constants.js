@@ -9,3 +9,6 @@ export const notificationConfig = {
     theme: "light",
    
 }
+
+// export const BASE_URL = "https://the-brige-beta.vercel.app"
+export const BASE_URL = "http://localhost:3000"

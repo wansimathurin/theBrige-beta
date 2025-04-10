@@ -53,7 +53,7 @@ export default function AddCampaign() {
     setSubmitting(true);
     try {
       const res = await axios.post(
-        "http://localhost:3000/api/campaigns",
+        `/api/campaigns`,
         payload
       );
       toast.success("Campagne ajoutée avec succès 🚀", notificationConfig);
@@ -66,23 +66,7 @@ export default function AddCampaign() {
     }
   };
 
-  const InputField = ({ label, id, type = "text", value, onChange }) => (
-    <div className="mb-4">
-      <label
-        htmlFor={id}
-        className="block text-sm font-medium text-gray-700 mb-1"
-      >
-        {label}
-      </label>
-      <input
-        type={type}
-        id={id}
-        value={value}
-        onChange={(e) => onChange(e.target.value)}
-        className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-      />
-    </div>
-  );
+ 
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center h-screen w-full backdrop-blur-md bg-[#ffffff91]">
