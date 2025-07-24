@@ -7,7 +7,7 @@ export default function FooterComponent() {
           <div className="flex flex-col items-center justify-center">
        
         <p className="text-white text-[20px]">© 2023 theBridge. All rights reserved.</p>
-        <p className="text-white text-[20px]">Made with ❤️ by theBridge Team</p>
+        <p className="text-white text-[20px]">Made with ❤️</p>
       </div>
       
     </div>
