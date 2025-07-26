@@ -22,7 +22,7 @@ const Page = async() => {
    
        <HeroComponent />
       <GetStarted />
-      <FooterComponent />
+      {/* <FooterComponent /> */}
     </div>
   );
 };

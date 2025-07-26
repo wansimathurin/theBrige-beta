@@ -3,7 +3,7 @@ import PageClient from "./PageClient";
 
 export default async function HomePage() {
   const user = await currentUser();
-
+  console.log('current user',user)
   return <PageClient user={{
     id: user?.id,
     firstName: user?.firstName,
